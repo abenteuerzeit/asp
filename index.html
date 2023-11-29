@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="description" content="This is an example of a meta description. This will often show up in search results." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- SEO  -->
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="John Doe" />
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" />
+    <style>
+        body {
+            background-color: rgba(123, 123, 123, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <h1>My First Heading</h1>
+    <p>My first paragraph.</p>
+    <!-- semantic html -->
+    <header>
+        <nav style="border: 1px solid red">
+            <ul>
+                <li><a href="https://www.adrianmroz.com">nav 1</a></li>
+                <li><a href="./about.html">nav 2</a></li>
+                <li><a href="#">nav 3</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <h2 id="myId">Section 1</h2>
+        <p>Section 1 content...</p>
+        <input type="text" name="myInput" id="myInput" value="myValue" onchange="change()" />
+    </div>
+
+    <span>one line</span>
+    <script>
+        let a = 10;
+        let b = 20;
+        let c = a**2 + b**2;
+        console.log(c);
+        // Get myId and change innerHTML
+        // const myId = document.getElementById("myId");
+        // onchange change the value of myId
+        function change() {
+            myId.innerHTML = "Hello JavaScript!";
+        }
+    </script>
+</body>
+</html>
